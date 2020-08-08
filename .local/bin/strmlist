@@ -1,0 +1,8 @@
+#!/bin/sh
+
+STREAMABLES="${XDG_CONFIG_HOME:-$HOME}/.local/lib/streamables"
+
+#SEARCHTERM=$1
+#echo $(awk '$2 == $SEARCHTERM { print $1 }' $STREAMABLES)
+
+notify-send "$(awk '{print $2}' $STREAMABLES)" ; echo "$(awk '{print $2}' $STREAMABLES)"

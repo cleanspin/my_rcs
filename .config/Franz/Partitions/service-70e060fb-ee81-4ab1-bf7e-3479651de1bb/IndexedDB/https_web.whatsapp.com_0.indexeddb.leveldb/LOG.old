@@ -1,0 +1,6 @@
+2020/07/30-13:31:45.401 329b Reusing MANIFEST /home/sinner/.config/Franz/Partitions/service-70e060fb-ee81-4ab1-bf7e-3479651de1bb/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/30-13:31:45.401 329b Recovering log #3
+2020/07/30-13:31:45.458 329b Reusing old log /home/sinner/.config/Franz/Partitions/service-70e060fb-ee81-4ab1-bf7e-3479651de1bb/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000003.log 
+2020/07/30-16:39:52.879 3373 Level-0 table #5: started
+2020/07/30-16:39:52.940 3373 Level-0 table #5: 1165065 bytes OK
+2020/07/30-16:39:52.962 3373 Delete type=0 #3

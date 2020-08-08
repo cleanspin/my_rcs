@@ -1,0 +1,15 @@
+2020/07/30-13:31:43.331 3291 Reusing MANIFEST /home/sinner/.config/Franz/Partitions/service-58131129-7639-4617-9da1-4694bcefd210/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/30-13:31:43.331 3291 Recovering log #3
+2020/07/30-13:31:43.340 3291 Reusing old log /home/sinner/.config/Franz/Partitions/service-58131129-7639-4617-9da1-4694bcefd210/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/000003.log 
+2020/07/30-15:18:26.824 3373 Level-0 table #5: started
+2020/07/30-15:18:26.899 3373 Level-0 table #5: 742093 bytes OK
+2020/07/30-15:18:26.918 3373 Delete type=0 #3
+2020/07/30-17:19:57.459 3373 Level-0 table #7: started
+2020/07/30-17:19:57.522 3373 Level-0 table #7: 739296 bytes OK
+2020/07/30-17:19:57.545 3373 Delete type=0 #4
+2020/07/30-17:22:57.377 3373 Compacting 1@1 + 1@2 files
+2020/07/30-17:22:57.411 3373 Generated table #8@1: 66 keys, 1997 bytes
+2020/07/30-17:22:57.411 3373 Compacted 1@1 + 1@2 files => 1997 bytes
+2020/07/30-17:22:57.420 3373 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/30-17:22:57.421 3373 Delete type=2 #5
+2020/07/30-17:22:57.421 3373 Delete type=2 #7

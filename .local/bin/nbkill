@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# This script does the following:
+    # closes all open jupyter kernels in this machine
+    ## couldn't run it as an alias because of variable use
+
+kill $(ps aux | grep jupyter | awk '{print $2}')

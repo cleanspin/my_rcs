@@ -1,0 +1,4 @@
+## Prompt command for yes or no
+
+[ $(echo -e "No\nYes" | dmenu -i -p "$1") \
+== "Yes" ] && $2

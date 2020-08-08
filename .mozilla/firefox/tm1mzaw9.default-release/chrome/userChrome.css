@@ -1,0 +1,28 @@
+/* Hide horizontal tabs at the top of the window */
+#tabbrowser-tabs {
+  visibility: collapse !important;
+}
+
+#titlebar {
+  visibility: collapse;
+}
+
+/* visibility: collapse is better, so remove this */
+
+tab { display: none !important; }
+
+#sidebar-header {
+  visibility: collapse !important;
+}
+#navigator-toolbox {
+    height: 0px !important;
+    min-height: 0px !important;
+    overflow: hidden !important;
+}
+
+#navigator-toolbox:focus,
+#navigator-toolbox:focus-within,
+#navigator-toolbox:active {
+    height: auto !important;
+}
+

@@ -1,0 +1,15 @@
+#!/bin/zsh
+
+# Set Wallpaper
+xwallpaper --zoom ~/img/wallpapers/configured.png
+
+# Add user specific paths
+
+export PATH=$PATH:~/.local/bin
+export EDITOR='vim'
+export TERMINAL="termite"
+export BROWSER="firefox"
+
+# swap escape and caps
+
+setxkbmap -option caps:swapescape

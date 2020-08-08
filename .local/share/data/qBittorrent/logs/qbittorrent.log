@@ -1,0 +1,68 @@
+(N) 2020-07-23T00:40:10 - qBittorrent v4.2.5 started
+(N) 2020-07-23T00:40:10 - Using config directory: /home/sinner/.config/qBittorrent/
+(I) 2020-07-23T00:40:17 - Trying to listen on: 0.0.0.0:63823,[::]:63823
+(N) 2020-07-23T00:40:17 - Peer ID: -qB4250-
+(N) 2020-07-23T00:40:17 - HTTP User-Agent is 'qBittorrent/4.2.5'
+(I) 2020-07-23T00:40:17 - DHT support [ON]
+(I) 2020-07-23T00:40:17 - Local Peer Discovery support [ON]
+(I) 2020-07-23T00:40:17 - PeX support [ON]
+(I) 2020-07-23T00:40:17 - Anonymous mode [OFF]
+(I) 2020-07-23T00:40:17 - Encryption support [ON]
+(I) 2020-07-23T00:40:17 - UPnP / NAT-PMP support [ON]
+(W) 2020-07-23T00:40:17 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2020-07-23T00:40:17 - Options were saved successfully.
+(I) 2020-07-23T00:40:17 - System network status changed to ONLINE
+(I) 2020-07-23T00:40:17 - Successfully listening on IP: 127.0.0.1, port: TCP/63823
+(I) 2020-07-23T00:40:17 - Successfully listening on IP: 127.0.0.1, port: UDP/63823
+(I) 2020-07-23T00:40:17 - Successfully listening on IP: 10.0.2.15, port: TCP/63823
+(I) 2020-07-23T00:40:17 - Successfully listening on IP: 10.0.2.15, port: UDP/63823
+(I) 2020-07-23T00:40:17 - Successfully listening on IP: ::1, port: TCP/63823
+(I) 2020-07-23T00:40:17 - Successfully listening on IP: ::1, port: UDP/63823
+(I) 2020-07-23T00:40:17 - Successfully listening on IP: fe80::dbea:c48a:861a:517%enp0s3, port: TCP/63823
+(I) 2020-07-23T00:40:17 - Successfully listening on IP: fe80::dbea:c48a:861a:517%enp0s3, port: UDP/63823
+(I) 2020-07-23T00:40:17 - Detected external IP: 148.71.9.180
+(I) 2020-07-23T00:40:17 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Wed Jul 1 00:57:33 2020.
+(I) 2020-07-23T00:40:17 - Successfully updated IP geolocation database.
+(N) 2020-07-23T00:41:21 - Download first and last piece first: Off, torrent: 'Mr Robot Season 4 Mp4 1080p'
+(N) 2020-07-23T00:41:21 - 'Mr Robot Season 4 Mp4 1080p' added to download list.
+(C) 2020-07-23T00:42:53 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP: no router found
+(C) 2020-07-23T00:42:53 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP: no router found
+(N) 2020-08-01T14:24:54 - qBittorrent v4.2.5 started
+(N) 2020-08-01T14:24:54 - Using config directory: /home/sinner/.config/qBittorrent/
+(I) 2020-08-01T14:24:54 - Trying to listen on: 0.0.0.0:63823,[::]:63823
+(N) 2020-08-01T14:24:54 - Peer ID: -qB4250-
+(N) 2020-08-01T14:24:54 - HTTP User-Agent is 'qBittorrent/4.2.5'
+(I) 2020-08-01T14:24:54 - DHT support [ON]
+(I) 2020-08-01T14:24:54 - Local Peer Discovery support [ON]
+(I) 2020-08-01T14:24:54 - PeX support [ON]
+(I) 2020-08-01T14:24:54 - Anonymous mode [OFF]
+(I) 2020-08-01T14:24:54 - Encryption support [ON]
+(I) 2020-08-01T14:24:54 - UPnP / NAT-PMP support [ON]
+(I) 2020-08-01T14:24:54 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Wed Jul 1 00:57:33 2020.
+(N) 2020-08-01T14:24:54 - Options were saved successfully.
+(I) 2020-08-01T14:24:55 - Successfully listening on IP: 127.0.0.1, port: TCP/63823
+(I) 2020-08-01T14:24:55 - Successfully listening on IP: 127.0.0.1, port: UDP/63823
+(I) 2020-08-01T14:24:55 - Successfully listening on IP: 10.0.2.15, port: TCP/63823
+(I) 2020-08-01T14:24:55 - Successfully listening on IP: 10.0.2.15, port: UDP/63823
+(I) 2020-08-01T14:24:55 - Successfully listening on IP: ::1, port: TCP/63823
+(I) 2020-08-01T14:24:55 - Successfully listening on IP: ::1, port: UDP/63823
+(I) 2020-08-01T14:24:55 - Successfully listening on IP: fe80::dbea:c48a:861a:517%enp0s3, port: TCP/63823
+(I) 2020-08-01T14:24:55 - Successfully listening on IP: fe80::dbea:c48a:861a:517%enp0s3, port: UDP/63823
+(I) 2020-08-01T14:24:55 - Detected external IP: 148.71.9.180
+(N) 2020-08-01T14:24:55 - 'Mr Robot Season 4 Mp4 1080p' restored.
+(C) 2020-08-01T14:24:55 - File sizes mismatch for torrent 'Mr Robot Season 4 Mp4 1080p', pausing it.
+(N) 2020-08-01T14:25:12 - Download first and last piece first: Off, torrent: '100 Beautiful Ultra HD 4K Wallpapers'
+(N) 2020-08-01T14:25:12 - '100 Beautiful Ultra HD 4K Wallpapers' added to download list.
+(C) 2020-08-01T14:27:30 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP: no router found
+(C) 2020-08-01T14:27:30 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP: no router found
+(I) 2020-08-01T15:10:44 - System network status changed to OFFLINE
+(I) 2020-08-01T15:10:47 - Successfully listening on IP: fe80::dbea:c48a:861a:517%enp0s3, port: TCP/63823
+(I) 2020-08-01T15:10:47 - Successfully listening on IP: fe80::dbea:c48a:861a:517%enp0s3, port: UDP/63823
+(I) 2020-08-01T15:10:52 - Successfully listening on IP: 10.0.2.15, port: TCP/63823
+(I) 2020-08-01T15:10:52 - Successfully listening on IP: 10.0.2.15, port: UDP/63823
+(I) 2020-08-01T15:10:54 - System network status changed to ONLINE
+(I) 2020-08-02T03:10:52 - Successfully listening on IP: 10.0.2.15, port: TCP/63823
+(I) 2020-08-02T03:10:52 - Successfully listening on IP: 10.0.2.15, port: UDP/63823
+(I) 2020-08-02T03:10:54 - Detected external IP: 148.71.9.180
+(C) 2020-08-02T03:13:28 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP: no router found
+(C) 2020-08-02T03:13:28 - UPnP/NAT-PMP: Port mapping failure, message: could not map port using UPnP: no router found

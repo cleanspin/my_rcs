@@ -1,0 +1,13 @@
+help
+rename conf.ini
+rename config.ini
+touch hello
+a
+h
+delete
+mkdir 
+mkdir copys
+mkdir lukeranger
+pwd
+terminal 
+

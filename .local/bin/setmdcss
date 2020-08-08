@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# This script does the following:
+    # Changes the configured css to the given one so the MarkdownPreview on vim can run that one
+
+# Location of link to the configured css
+cssloc="${XDG_DATA_HOME:-$HOME/.local/lib/markdown_css/configured.css}"
+
+[ -f "$1" ] && ln -sf "$(readlink -f "$1")" "$cssloc"  && notify-send -i "$cssloc" "CSS Style chosen"

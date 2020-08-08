@@ -1,0 +1,11 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/home/sinner",
+  "password": false,
+  "pid": 5754,
+  "port": 8888,
+  "secure": false,
+  "token": "71aef268b891725b9372e5f2a2dc1c5f2ac72d5f705a1b9e",
+  "url": "http://localhost:8888/"
+}

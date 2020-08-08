@@ -1,0 +1,6 @@
+2020/07/30-13:31:45.821 32a0 Reusing MANIFEST /home/sinner/.config/Franz/Partitions/service-ea5ca446-cde4-4521-9f99-5e6d37961caa/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/30-13:31:45.822 32a0 Recovering log #3
+2020/07/30-13:31:45.848 32a0 Reusing old log /home/sinner/.config/Franz/Partitions/service-ea5ca446-cde4-4521-9f99-5e6d37961caa/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000003.log 
+2020/07/30-13:31:50.259 3373 Level-0 table #5: started
+2020/07/30-13:31:50.318 3373 Level-0 table #5: 1447018 bytes OK
+2020/07/30-13:31:50.348 3373 Delete type=0 #3

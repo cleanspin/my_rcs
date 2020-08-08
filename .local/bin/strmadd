@@ -1,0 +1,11 @@
+#!/bin/sh
+
+! echo "$1"  > /dev/null
+
+STREAMABLES="${XDG_CONFIG_HOME:-$HOME}/.local/lib/streamables"
+
+if awk '{print $1}' "$STREAMABLES" | grep "^$1$" > /dev/null; then
+	notify-send "You already have this link."
+else
+	echo "$1 $2" >> "$STREAMABLES" && notify-send "link added."
+fi

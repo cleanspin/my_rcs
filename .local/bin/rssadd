@@ -1,0 +1,41 @@
+#!/bin/sh
+
+## usage: rssadd @tag @title @category @type
+
+## This script allows you to add stuff to your newsboat urls easily by providing the identifying tag as the first argument, desired title as second and category as third and the type of feed as forth. It will help you parse everything
+## In the case of a youtube feed you only provide the channel ID, with twitter you provide the handle with no @ and with reddit you provide the sub name. In the case of a different feed you dont pass a 4th argument
+## Important note: You must have capitalized categories and no capitalized titles of feeds
+
+if [ $4 == "youtube" ]
+then
+    TITLE="YT: $2"
+    URL="https://www.youtube.com/feeds/videos.xml?channel_id=$1"
+elif [ $4 == "reddit" ]
+then
+    TITLE="r/$2"
+    URL="https://www.reddit.com/r/$1/.rss"
+elif [ $4 == "twitter" ]
+then
+    TITLE="TWITTER: $2"
+    URL="http://nitter.net/$1/rss"
+else
+    TITLE="$2"
+    URL="$1"
+fi
+
+## It will inform you if you passed a wrong URL, useful in the case of unusual feed types
+
+! echo "$URL" | grep "https*://\S\+\.[A-Za-z]\+\S*" >/dev/null &&
+	notify-send "That is not a rss/atom URL." && exit
+
+## Configure your urls file
+
+RSSFILE="${XDG_CONFIG_HOME:-$HOME}/.newsboat/urls"
+
+## Informs you if you already have that feed, otherwise it adds it under the category you want. It evaluates if the category exist before adding and notify you if the file is changed
+
+if awk '{print $1}' "$RSSFILE" | grep "^$URL$" >/dev/null; then
+	notify-send "You already have this RSS feed."
+else
+    awk '{print $1}' "$RSSFILE" | grep "$3" > /dev/null || notify-send "The category doesn't exist and nothing was added. The sentence below is a lie" && sed -i "/$3/a $URL \"\~$TITLE\"" "$RSSFILE" && notify-send "$4 RSS feed added under category $3 with the title $2."
+fi

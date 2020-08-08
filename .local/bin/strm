@@ -1,0 +1,9 @@
+#!/bin/sh
+
+STREAMABLES="${XDG_CONFIG_HOME:-$HOME}/.local/lib/streamables"
+
+#SEARCHTERM=$1
+#echo $(awk '$2 == $SEARCHTERM { print $1 }' $STREAMABLES)
+
+tmux new -d mpv $(awk -v SEARCHTERM="$1" '$2 == SEARCHTERM {print $1}' $STREAMABLES)
+
